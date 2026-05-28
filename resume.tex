@@ -1,0 +1,175 @@
+\documentclass[a4paper,8pt]{article}
+
+\usepackage{parskip}
+\usepackage{hologo}
+
+% REPLACEMENT FOR FONTSPEC (Works with standard pdflatex)
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault} % Sets the font to sans-serif (like Arial)
+
+%other packages for formatting
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+% --- MARGIN SETTINGS ---
+\usepackage[scale=0.92, top=0.13in, bottom=0.13in]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.42\textwidth}
+
+%custom \section
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections settings
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{1pt}{2pt}{2pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package
+\usepackage[unicode, draft=false, hidelinks]{hyperref}
+
+\color[HTML]{110223}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+
+% For underline
+\usepackage[normalem]{ulem}
+
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty}
+
+% HEADER
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\color[HTML]{1C033C} \Huge{Esai Keshav} \\[6pt]
+\\
+\textcolor[HTML]{371e77}{{{{\faEnvelope} am014esai@gmail.com}} $|$}
+% PHONE NUMBER WITH CALL LOGO (\faPhone)
+\textcolor[HTML]{371e77}{{{\faPhone} 9940775332}} $|$
+\textcolor[HTML]{371e77}{{{\faMapMarker*} Tenkasi}}
+
+% GITHUB LINK
+\href{https://github.com/Esai-Keshav}{\textcolor[HTML]{371e77}{\underline{{\raisebox{-0.05\height}{\faGithub} github.com/Esai-Keshav}}}} $|$
+% LINKEDIN LINK
+\href{https://www.linkedin.com/in/esai-keshav/}{\textcolor[HTML]{371e77}{\underline{{\raisebox{-0.05\height}{\faLinkedin} linkedin.com/in/esai-keshav}}}}
+\end{tabularx}
+
+% WORK EXPERIENCE
+\section{Work Experience}
+
+% Experience 1
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{{convverse.ai}} \hfill \color[HTML]{371e77} Sep 2025 - Nov 2025 \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Freelance Backend Developer}}\ \hfill \color[HTML]{4B28A4} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Developed backend APIs integrating Salesforce with Convverse.ai’s infrastructure and deployed services on AWS.
+        \item Optimized and redesigned the Chrome extension to improve performance and user experience.
+        \item Collaborated closely with the Sales team to ensure technical solutions aligned with business requirements.
+        \end{itemize}
+\end{minipage}
+\end{tabularx}
+
+% Experience 2
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{{Ewokee}} \hfill \color[HTML]{371e77} Jun 2025 - Sep 2025 \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Freelance Full Stack Developer}}\ \hfill \color[HTML]{4B28A4} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Built a fully responsive website based on Figma designs, optimized for fast loading and high Lighthouse performance, with Google Analytics integration for user insights.
+        \item Developed backend features including PhonePe payment integration, therapy session booking, and automated email notifications upon successful payments.
+        \item Collaborated closely with the designer to translate UI/UX requirements into a smooth user experience across devices.
+        \end{itemize}
+\end{minipage}
+\end{tabularx} 
+
+% Experience 3
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{{Elements Capital}} \hfill \color[HTML]{371e77} July 2024 - Nov 2024 \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Python Intern}}\ \hfill \color[HTML]{4B28A4} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Scraped stock market data from NSE using BeautifulSoup and Selenium, covering stocks, mutual funds, indices, futures, and options.
+        \item Automated ETL workflows to extract, transform, and load data into Amazon S3 and Snowflake.
+        \item Collaborated with the Quantitative Finance team to ensure accurate and reliable data processing.
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+
+% Experience 4
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{Third Origin LLC} \hfill \color[HTML]{371e77} Sep 2023 - Feb 2024 \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Python Developer Intern}} \hfill \color[HTML]{4B28A4} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Assisted in migrating data infrastructure from MongoDB to MySQL, enhancing data quality and accessibility.
+        \item Developed API endpoints using FastAPI and built robust backend systems, improving performance and reliability.
+        \item Designed and implemented an end-to-end testing system with detailed test plans and documentation.
+    \end{itemize}
+    \end{minipage}
+\end{tabularx}\\[3pt]
+
+% EDUCATION (Updated to include bullet points)
+\section{Education}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{Annamalai University} & \hfill \color[HTML]{371e77} Bachelor of Computer Science and Engineering \\
+\color[HTML]{371e77} Specialization: AI and ML & \hfill \color[HTML]{4B28A4} \textit{\textbf{GPA: 8.4}} \\[5pt]
+\multicolumn{2}{@{}X@{}}{
+    \begin{minipage}[t]{\linewidth}
+        \begin{itemize}[nosep,after=\strut, leftmargin=1.5em, itemsep=2pt]
+            \item NCC 'C' Certificate - Participated in drills, camps, and community service, gaining strong discipline, teamwork, and practical leadership experience.
+        \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}\\[3pt]
+
+% PROJECTS
+\section{Project Work}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item \textbf{Therapy Website (Ewokee):} Built a fully responsive website with secure PhonePe payment gateway integration. Developed a backend system to manage user requests and implemented an automated email notification system. \\ \textit{Tech Stack: React, Supabase, Tailwind CSS, PhonePe Payment Gateway, Headless UI.} \\
+        \textit{Link:} \href{https://ewokee.com/}{https://ewokee.com/}
+        
+        \vspace{3pt} % --- SPACE ADDED HERE ---
+        
+        \item \textbf{RAG with Gemini:} Built a RAG system using LangChain and Gemini for accurate, context-aware responses from custom data. Developed a React frontend with an interactive chat interface and document search. Integrated a vector database for fast retrieval. \\ 
+        \textit{Link: \href{https://github.com/Esai-Keshav/rag-with-gemini-v1}{github.com/Esai-Keshav/rag-with-gemini-v1}}
+      
+        \vspace{3pt} % --- SPACE ADDED HERE 
+        
+ \item \textbf{Django React Notes App:} Built a full-stack notes application using Django REST Framework for the backend and a React frontend. Implemented secure JWT authentication for user login and protected routes. \\ 
+        \textit{Link: \href{https://github.com/Esai-Keshav/django-react-notes-app}{github.com/Esai-Keshav/django-react-notes-app}}
+    \end{itemize}
+    \end{minipage}
+\end{tabularx}\\[3pt]
+
+% SKILLS
+\section{Skills} 
+\color[HTML]{1C033C}\textbf{Languages:} Python, TypeScript, JavaScript \\[3pt]
+\color[HTML]{1C033C}\textbf{Frameworks:} FastAPI, Flask, Django, LangChain, React, Tailwind CSS, Shadcn/UI, Zustand, MERN\\[3pt]
+\color[HTML]{1C033C}\textbf{Databases:} PostgreSQL, MySQL, MongoDB, SQLite, Redis, Snowflake, Supabase\\[3pt]
+\color[HTML]{1C033C}\textbf{Infrastructure:} AWS, Docker, Linux\\[3pt]
+
+\end{document}
