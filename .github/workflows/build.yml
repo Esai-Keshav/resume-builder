@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - '**.tex'
 
 permissions:
   contents: read
@@ -17,20 +15,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Compile LaTeX
         uses: xu-cheng/latex-action@v3
         with:
           root_file: resume.tex
 
-      - name: Replace Public PDF
+      - name: Replace Resume PDF
         run: |
-          mkdir -p public
-          mv resume.pdf public/resume.pdf
+          cp resume.pdf public/resume.pdf
 
-      - name: Upload GitHub Pages Artifact
+      - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
