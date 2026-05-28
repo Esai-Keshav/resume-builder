@@ -1,12 +1,16 @@
-name: Build and Release Resume
+name: Build and Deploy Resume
 
 on:
   push:
     branches:
       - main
+    paths:
+      - '**.tex'
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -21,9 +25,26 @@ jobs:
         with:
           root_file: resume.tex
 
-      - name: Create Release
-        uses: softprops/action-gh-release@v2
+      - name: Replace Public PDF
+        run: |
+          mkdir -p public
+          mv resume.pdf public/resume.pdf
+
+      - name: Upload GitHub Pages Artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          tag_name: latest
-          name: Latest Resume
-          files: resume.pdf
+          path: public
+
+  deploy:
+    needs: build
+
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
