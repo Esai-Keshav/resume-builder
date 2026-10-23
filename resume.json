@@ -3,7 +3,7 @@
   "contacts": {
     "email": "am014esai@gmail.com",
     "phone": "9940775332",
-    "location": "Tenkasi",
+    "location": "Chennai",
     "github": {
       "label": "github.com/Esai-Keshav",
       "url": "https://github.com/Esai-Keshav"
@@ -19,17 +19,17 @@
       "role": "AI Backend Developer",
       "dates": "Sep 2025 - Present",
       "bullets": [
-        "Developed backend APIs integrating Salesforce with Convverse.ai's infrastructure and deployed services on AWS.",
-        "Optimized and redesigned the Chrome extension to improve performance and user experience.",
-        "Collaborated closely with the Sales team to ensure technical solutions aligned with business requirements."
+        "Conducted R&D and ad hoc technical evaluations of emerging AI technologies through proof-of-concepts (PoCs), validating feasibility, performance, and suitability for organizational adoption.",
+        "Designed and evaluated LLM-powered workflows using LLM-as-a-Judge, structured output validation, evaluation metrics, and token-consumption analysis to assess response quality, reliability, and inference costs.",
+        "Developed and deployed AI and backend components on AWS for ITRA, WeGot AI, and FittGen, powering Instagram creator intelligence, conversational water-data analytics, and AI-generated school fitness insights."
       ]
     },
     {
       "company": "convverse.ai",
-      "role": "Freelance Backend Developer",
+      "role": "Backend Developer",
       "dates": "Sep 2025 - Nov 2025",
       "bullets": [
-        "Developed backend APIs integrating Salesforce with Convverse.ai's infrastructure and deployed services on AWS.",
+        "Built a multi-CRM integration layer connecting Convverse.ai with Salesforce, HubSpot, GoHighLevel, Pipedrive, and Zoho CRM.",
         "Optimized and redesigned the Chrome extension to improve performance and user experience.",
         "Collaborated closely with the Sales team to ensure technical solutions aligned with business requirements."
       ]
