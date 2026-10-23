@@ -1,0 +1,103 @@
+{
+  "name": "Esai Keshav",
+  "contacts": {
+    "email": "am014esai@gmail.com",
+    "phone": "9940775332",
+    "location": "Tenkasi",
+    "github": {
+      "label": "github.com/Esai-Keshav",
+      "url": "https://github.com/Esai-Keshav"
+    },
+    "linkedin": {
+      "label": "linkedin.com/in/esai-keshav",
+      "url": "https://www.linkedin.com/in/esai-keshav/"
+    }
+  },
+  "experience": [
+    {
+      "company": "Cyces",
+      "role": "AI Backend Developer",
+      "dates": "Sep 2025 - Nov 2025",
+      "bullets": [
+        "Developed backend APIs integrating Salesforce with Convverse.ai's infrastructure and deployed services on AWS.",
+        "Optimized and redesigned the Chrome extension to improve performance and user experience.",
+        "Collaborated closely with the Sales team to ensure technical solutions aligned with business requirements."
+      ]
+    },
+    {
+      "company": "convverse.ai",
+      "role": "Freelance Backend Developer",
+      "dates": "Sep 2025 - Nov 2025",
+      "bullets": [
+        "Developed backend APIs integrating Salesforce with Convverse.ai's infrastructure and deployed services on AWS.",
+        "Optimized and redesigned the Chrome extension to improve performance and user experience.",
+        "Collaborated closely with the Sales team to ensure technical solutions aligned with business requirements."
+      ]
+    },
+    {
+      "company": "Ewokee",
+      "role": "Freelance Full Stack Developer",
+      "dates": "Jun 2025 - Sep 2025",
+      "bullets": [
+        "Built a fully responsive website based on Figma designs, optimized for fast loading and high Lighthouse performance, with Google Analytics integration for user insights.",
+        "Developed backend features including PhonePe payment integration, therapy session booking, and automated email notifications upon successful payments.",
+        "Collaborated closely with the designer to translate UI/UX requirements into a smooth user experience across devices."
+      ]
+    },
+    {
+      "company": "Elements Capital",
+      "role": "Python Intern",
+      "dates": "July 2024 - Nov 2024",
+      "bullets": [
+        "Scraped stock market data from NSE using BeautifulSoup and Selenium, covering stocks, mutual funds, indices, futures, and options.",
+        "Automated ETL workflows to extract, transform, and load data into Amazon S3 and Snowflake.",
+        "Collaborated with the Quantitative Finance team to ensure accurate and reliable data processing."
+      ]
+    },
+    {
+      "company": "Third Origin LLC",
+      "role": "Python Developer Intern",
+      "dates": "Sep 2023 - Feb 2024",
+      "bullets": [
+        "Assisted in migrating data infrastructure from MongoDB to MySQL, enhancing data quality and accessibility.",
+        "Developed API endpoints using FastAPI and built robust backend systems, improving performance and reliability.",
+        "Designed and implemented an end-to-end testing system with detailed test plans and documentation."
+      ]
+    }
+  ],
+  "education": {
+    "institution": "Annamalai University",
+    "degree": "Bachelor of Computer Science and Engineering",
+    "specialization": "AI and ML",
+    "gpa": 8.6,
+    "highlights": [
+      "NCC 'C' Certificate - Participated in drills, camps, and community service, gaining strong discipline, teamwork, and practical leadership experience."
+    ]
+  },
+  "projects": [
+    {
+      "name": "RAG with Gemini",
+      "description": "Built a Retrieval-Augmented Generation system using LangChain and Gemini for accurate, context-aware responses from custom data. Developed a React frontend with an interactive chat interface and document search. Integrated a vector database for fast retrieval.",
+      "tech": "LangChain, Gemini API, React, Vector DB",
+      "link": {
+        "label": "github.com/Esai-Keshav/rag-with-gemini-v1",
+        "url": "https://github.com/Esai-Keshav/rag-with-gemini-v1"
+      }
+    },
+    {
+      "name": "Resume Builder CI/CD",
+      "description": "Designed and deployed an automated CI/CD pipeline using GitHub Actions that compiles LaTeX to PDF and deploys to GitHub Pages on every push. Eliminated manual resume compilation, ensuring the latest version is always accessible via a live URL. Demonstrates infrastructure automation and DevOps best practices.",
+      "tech": "GitHub Actions, LaTeX, GitHub Pages",
+      "link": {
+        "label": "esai-keshav.github.io/resume-builder/resume.pdf",
+        "url": "https://esai-keshav.github.io/resume-builder/resume.pdf"
+      }
+    }
+  ],
+  "skills": {
+    "Languages": ["Python", "TypeScript"],
+    "Frameworks": ["FastAPI", "Flask", "Django", "LangChain", "React", "Tailwind CSS", "Shadcn/UI", "Zustand", "MERN"],
+    "Databases": ["PostgreSQL", "MySQL", "MongoDB", "SQLite", "Redis", "Snowflake", "Supabase"],
+    "Infrastructure": ["AWS", "Docker", "Linux", "RabbitMQ"]
+  }
+}

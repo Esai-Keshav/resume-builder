@@ -1,0 +1,12 @@
+#!/bin/sh
+# Regenerates resume.tex when resume.json is staged for commit,
+# then stages the updated resume.tex alongside it.
+
+if git diff --cached --name-only | grep -q '^resume\.json$'; then
+    python3 "$(dirname "$0")/../build.py" || {
+        echo "pre-commit: resume.tex generation failed" >&2
+        exit 1
+    }
+    git add resume.tex
+    echo "pre-commit: resume.tex regenerated and staged"
+fi
