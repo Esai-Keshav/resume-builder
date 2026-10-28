@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "jd-tailorer": {
+      "source": "chasen-liao/resume-skills",
+      "sourceType": "github",
+      "skillPath": "skills/jd-tailorer/SKILL.md",
+      "computedHash": "28b61bffe8a429346731b72431b68862071f39a38afb8399b0d81decb4737026"
+    },
+    "no-ai-slop": {
+      "source": "petergyang/no-ai-slop",
+      "sourceType": "github",
+      "skillPath": "skills/no-ai-slop/SKILL.md",
+      "computedHash": "77d287e3c8e09874e144ee35f6fb0ee1adcf609012c7c3273e9c8fe2054ce5af"
+    },
+    "resume-cover-letter": {
+      "source": "jezweb/claude-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/writing/skills/resume-cover-letter/SKILL.md",
+      "computedHash": "d47412809e21ad69f722b9f66bea046ddac94a4a65bbaf9824d943b3c8be29f0"
+    }
+  }
+}

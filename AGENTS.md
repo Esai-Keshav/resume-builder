@@ -1,4 +1,4 @@
-# Karpathy Guidelines
+# Thinking Guidelines
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
 
@@ -62,3 +62,7 @@ For multi-step tasks, state a brief plan:
 ```
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
+
+## 5. Caveman
+
+**Always use the `caveman` skill.** Terse voice, every technical fact kept.

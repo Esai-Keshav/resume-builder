@@ -84,9 +84,9 @@
 \color[HTML]{371e77}\textbf{\textit{AI Backend Developer}}\ \hfill \color[HTML]{4B28A4} \\[5pt]
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
-        \item Conducted R\&D and ad hoc technical evaluations of emerging AI technologies through proof-of-concepts (PoCs), validating feasibility, performance, and suitability for organizational adoption.
-        \item Designed and evaluated LLM-powered workflows using LLM-as-a-Judge, structured output validation, evaluation metrics, and token-consumption analysis to assess response quality, reliability, and inference costs.
-        \item Developed and deployed AI and backend components on AWS for ITRA, WeGot AI, and FittGen, powering Instagram creator intelligence, conversational water-data analytics, and AI-generated school fitness insights.
+        \item Evaluated emerging AI technologies through proofs-of-concept to decide what the company should adopt into production.
+        \item Built LLM workflows graded with LLM-as-a-Judge, structured output validation, and token-cost tracking, keeping responses reliable and inference costs visible.
+        \item Built AI and backend components deployed on AWS for ITRA, WeGot AI, and FittGen, powering Instagram creator intelligence, conversational water-data analytics, and AI-generated school fitness insights.
     \end{itemize}
 \end{minipage}
 \end{tabularx}
@@ -99,8 +99,7 @@
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
         \item Built a multi-CRM integration layer connecting Convverse.ai with Salesforce, HubSpot, GoHighLevel, Pipedrive, and Zoho CRM.
-        \item Optimized and redesigned the Chrome extension to improve performance and user experience.
-        \item Collaborated closely with the Sales team to ensure technical solutions aligned with business requirements.
+        \item Redesigned the Chrome extension to make it faster and more reliable for daily use.
     \end{itemize}
 \end{minipage}
 \end{tabularx}
@@ -114,7 +113,6 @@
     \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
         \item Built a fully responsive website based on Figma designs, optimized for fast loading and high Lighthouse performance, with Google Analytics integration for user insights.
         \item Developed backend features including PhonePe payment integration, therapy session booking, and automated email notifications upon successful payments.
-        \item Collaborated closely with the designer to translate UI/UX requirements into a smooth user experience across devices.
     \end{itemize}
 \end{minipage}
 \end{tabularx}
@@ -128,7 +126,7 @@
 \multicolumn{2}{@{}X@{}}{
     \begin{minipage}[t]{\linewidth}
         \begin{itemize}[nosep,after=\strut, leftmargin=1.5em, itemsep=2pt]
-            \item NCC 'C' Certificate - Participated in drills, camps, and community service, gaining strong discipline, teamwork, and practical leadership experience.
+            \item NCC 'C' Certificate - drills, camps, and community service with practical leadership training.
         \end{itemize}
     \end{minipage}
 }
@@ -141,13 +139,13 @@
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
 
-        \item \textbf{RAG with Gemini:} Built a Retrieval-Augmented Generation system using LangChain and Gemini for accurate, context-aware responses from custom data. Developed a React frontend with an interactive chat interface and document search. Integrated a vector database for fast retrieval. \\
-        \textit{Tech Stack: LangChain, Gemini API, React, Vector DB.} \\
-        \textit{Link: \href{https://github.com/Esai-Keshav/rag-with-gemini-v1}{github.com/Esai-Keshav/rag-with-gemini-v1}}
+        \item \textbf{Multi-Agent Logistics Assistant:} Built a multi-agent logistics system on Google ADK where a coordinator routes bookings through freight, warehouse, and verifier agents; the verifier re-reads the database after every booking and self-heals double-bookings through rollback and re-booking. Added Gemini Vision receipt reading for end-to-end bookings and a custom MCP server over SQLite, validated by 34 pytest tests with \textasciitilde{}21s end-to-end latency. \\
+        \textit{Tech Stack: Google ADK, MCP, Gemini, SQLAlchemy, SQLite, Pytest.} \\
+        \textit{Link: \href{https://github.com/Esai-Keshav/agent-wars}{github.com/Esai-Keshav/agent-wars}}
 
         \vspace{3pt}
 
-        \item \textbf{Resume Builder CI/CD:} Designed and deployed an automated CI/CD pipeline using GitHub Actions that compiles LaTeX to PDF and deploys to GitHub Pages on every push. Eliminated manual resume compilation, ensuring the latest version is always accessible via a live URL. Demonstrates infrastructure automation and DevOps best practices. \\
+        \item \textbf{Resume Builder CI/CD:} Built a GitHub Actions pipeline that compiles LaTeX to PDF and deploys to GitHub Pages on every push, so the resume always builds and goes live with no manual steps. \\
         \textit{Tech Stack: GitHub Actions, LaTeX, GitHub Pages.} \\
         \textit{Link: \href{https://esai-keshav.github.io/resume-builder/resume.pdf}{esai-keshav.github.io/resume-builder/resume.pdf}}
     \end{itemize}
@@ -158,8 +156,11 @@
 \section{Skills}
 
 \color[HTML]{1C033C}\textbf{Languages:} Python, TypeScript\\[3pt]
-\color[HTML]{1C033C}\textbf{Frameworks:} FastAPI, Flask, Django, LangChain, React, Tailwind CSS, Shadcn/UI, Zustand, MERN\\[3pt]
-\color[HTML]{1C033C}\textbf{Databases:} PostgreSQL, MySQL, MongoDB, SQLite, Redis, Snowflake, Supabase\\[3pt]
-\color[HTML]{1C033C}\textbf{Infrastructure:} AWS, Docker, Linux, RabbitMQ\\[3pt]
+\color[HTML]{1C033C}\textbf{AI/GenAI:} LangChain, Gemini API, RAG, LLM-as-a-Judge, Structured Outputs, Vector Databases\\[3pt]
+\color[HTML]{1C033C}\textbf{Frameworks:} FastAPI, Flask, Django, MERN\\[3pt]
+\color[HTML]{1C033C}\textbf{Backend:} PostgreSQL, MongoDB, Websocket, Celery, Redis\\[3pt]
+\color[HTML]{1C033C}\textbf{Frontend:} React, Tailwind CSS, Angular, Astro.js, Shadcn/UI, Zustand\\[3pt]
+\color[HTML]{1C033C}\textbf{Databases:} MySQL, SQLite, Snowflake, Supabase\\[3pt]
+\color[HTML]{1C033C}\textbf{Infrastructure:} AWS, Docker, Linux, RabbitMQ, GCP\\[3pt]
 
 \end{document}

@@ -19,9 +19,9 @@
       "role": "AI Backend Developer",
       "dates": "Jan 2026 - Present",
       "bullets": [
-        "Conducted R&D and ad hoc technical evaluations of emerging AI technologies through proof-of-concepts (PoCs), validating feasibility, performance, and suitability for organizational adoption.",
-        "Designed and evaluated LLM-powered workflows using LLM-as-a-Judge, structured output validation, evaluation metrics, and token-consumption analysis to assess response quality, reliability, and inference costs.",
-        "Developed and deployed AI and backend components on AWS for ITRA, WeGot AI, and FittGen, powering Instagram creator intelligence, conversational water-data analytics, and AI-generated school fitness insights."
+        "Evaluated emerging AI technologies through proofs-of-concept to decide what the company should adopt into production.",
+        "Built LLM workflows graded with LLM-as-a-Judge, structured output validation, and token-cost tracking, keeping responses reliable and inference costs visible.",
+        "Built AI and backend components deployed on AWS for ITRA, WeGot AI, and FittGen, powering Instagram creator intelligence, conversational water-data analytics, and AI-generated school fitness insights."
       ]
     },
     {
@@ -30,8 +30,7 @@
       "dates": "Sep 2025 - Nov 2025",
       "bullets": [
         "Built a multi-CRM integration layer connecting Convverse.ai with Salesforce, HubSpot, GoHighLevel, Pipedrive, and Zoho CRM.",
-        "Optimized and redesigned the Chrome extension to improve performance and user experience.",
-        "Collaborated closely with the Sales team to ensure technical solutions aligned with business requirements."
+        "Redesigned the Chrome extension to make it faster and more reliable for daily use."
       ]
     },
     {
@@ -40,8 +39,7 @@
       "dates": "Jun 2025 - Sep 2025",
       "bullets": [
         "Built a fully responsive website based on Figma designs, optimized for fast loading and high Lighthouse performance, with Google Analytics integration for user insights.",
-        "Developed backend features including PhonePe payment integration, therapy session booking, and automated email notifications upon successful payments.",
-        "Collaborated closely with the designer to translate UI/UX requirements into a smooth user experience across devices."
+        "Developed backend features including PhonePe payment integration, therapy session booking, and automated email notifications upon successful payments."
       ]
     }
   ],
@@ -51,22 +49,22 @@
     "specialization": "AI and ML",
     "gpa": 8.6,
     "highlights": [
-      "NCC 'C' Certificate - Participated in drills, camps, and community service, gaining strong discipline, teamwork, and practical leadership experience."
+      "NCC 'C' Certificate - drills, camps, and community service with practical leadership training."
     ]
   },
   "projects": [
     {
-      "name": "RAG with Gemini",
-      "description": "Built a Retrieval-Augmented Generation system using LangChain and Gemini for accurate, context-aware responses from custom data. Developed a React frontend with an interactive chat interface and document search. Integrated a vector database for fast retrieval.",
-      "tech": "LangChain, Gemini API, React, Vector DB",
+      "name": "Multi-Agent Logistics Assistant",
+      "description": "Built a multi-agent logistics system on Google ADK where a coordinator routes bookings through freight, warehouse, and verifier agents; the verifier re-reads the database after every booking and self-heals double-bookings through rollback and re-booking. Added Gemini Vision receipt reading for end-to-end bookings and a custom MCP server over SQLite, validated by 34 pytest tests with ~21s end-to-end latency.",
+      "tech": "Google ADK, MCP, Gemini, SQLAlchemy, SQLite, Pytest",
       "link": {
-        "label": "github.com/Esai-Keshav/rag-with-gemini-v1",
-        "url": "https://github.com/Esai-Keshav/rag-with-gemini-v1"
+        "label": "github.com/Esai-Keshav/agent-wars",
+        "url": "https://github.com/Esai-Keshav/agent-wars"
       }
     },
     {
       "name": "Resume Builder CI/CD",
-      "description": "Designed and deployed an automated CI/CD pipeline using GitHub Actions that compiles LaTeX to PDF and deploys to GitHub Pages on every push. Eliminated manual resume compilation, ensuring the latest version is always accessible via a live URL. Demonstrates infrastructure automation and DevOps best practices.",
+      "description": "Built a GitHub Actions pipeline that compiles LaTeX to PDF and deploys to GitHub Pages on every push, so the resume always builds and goes live with no manual steps.",
       "tech": "GitHub Actions, LaTeX, GitHub Pages",
       "link": {
         "label": "esai-keshav.github.io/resume-builder/resume.pdf",
@@ -76,26 +74,29 @@
   ],
   "skills": {
     "Languages": ["Python", "TypeScript"],
+    "AI/GenAI": [
+      "LangChain",
+      "Gemini API",
+      "RAG",
+      "LLM-as-a-Judge",
+      "Structured Outputs",
+      "Vector Databases"
+    ],
     "Frameworks": [
       "FastAPI",
       "Flask",
       "Django",
-      "LangChain",
-      "React",
-      "Tailwind CSS",
-      "Shadcn/UI",
-      "Zustand",
       "MERN"
     ],
-    "Databases": [
+    "Backend": [
       "PostgreSQL",
-      "MySQL",
       "MongoDB",
-      "SQLite",
-      "Redis",
-      "Snowflake",
-      "Supabase"
+      "Websocket",
+      "Celery",
+      "Redis"
     ],
-    "Infrastructure": ["AWS", "Docker", "Linux", "RabbitMQ"]
+    "Frontend": ["React", "Tailwind CSS", "Angular", "Astro.js", "Shadcn/UI", "Zustand"],
+    "Databases": ["MySQL", "SQLite", "Snowflake", "Supabase"],
+    "Infrastructure": ["AWS", "Docker", "Linux", "RabbitMQ", "GCP"]
   }
 }
