@@ -54,12 +54,12 @@
   },
   "projects": [
     {
-      "name": "RAG with Gemini",
-      "description": "Built a Retrieval-Augmented Generation system using LangChain and Gemini for accurate, context-aware responses from custom data. Developed a React frontend with an interactive chat interface and document search. Integrated a vector database for fast retrieval.",
-      "tech": "LangChain, Gemini API, React, Vector DB",
+      "name": "Multi-Agent Logistics Assistant",
+      "description": "Built a multi-agent logistics system on Google ADK where a coordinator routes bookings through freight, warehouse, and verifier agents; the verifier re-reads the database after every booking and self-heals double-bookings through rollback and re-booking. Added Gemini Vision receipt reading for end-to-end bookings and a custom MCP server over SQLite, validated by 34 pytest tests with ~21s end-to-end latency.",
+      "tech": "Google ADK, MCP, Gemini, SQLAlchemy, SQLite, Pytest",
       "link": {
-        "label": "github.com/Esai-Keshav/rag-with-gemini-v1",
-        "url": "https://github.com/Esai-Keshav/rag-with-gemini-v1"
+        "label": "github.com/Esai-Keshav/agent-wars",
+        "url": "https://github.com/Esai-Keshav/agent-wars"
       }
     },
     {
@@ -74,9 +74,29 @@
   ],
   "skills": {
     "Languages": ["Python", "TypeScript"],
-    "AI/GenAI": ["LangChain", "Gemini API", "RAG", "LLM-as-a-Judge", "Structured Outputs", "Vector Databases"],
-    "Backend": ["FastAPI", "Flask", "REST APIs", "PostgreSQL", "MongoDB"],
-    "Frontend": ["React", "Tailwind CSS"],
-    "Infrastructure": ["AWS", "GitHub Actions"]
+    "AI/GenAI": [
+      "LangChain",
+      "Gemini API",
+      "RAG",
+      "LLM-as-a-Judge",
+      "Structured Outputs",
+      "Vector Databases"
+    ],
+    "Frameworks": [
+      "FastAPI",
+      "Flask",
+      "Django",
+      "MERN"
+    ],
+    "Backend": [
+      "PostgreSQL",
+      "MongoDB",
+      "Websocket",
+      "Celery",
+      "Redis"
+    ],
+    "Frontend": ["React", "Tailwind CSS", "Angular", "Astro.js", "Shadcn/UI", "Zustand"],
+    "Databases": ["MySQL", "SQLite", "Snowflake", "Supabase"],
+    "Infrastructure": ["AWS", "Docker", "Linux", "RabbitMQ", "GCP"]
   }
 }
