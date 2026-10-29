@@ -21,7 +21,8 @@
       "bullets": [
         "Evaluated emerging AI technologies through proofs-of-concept to decide what the company should adopt into production.",
         "Built LLM workflows graded with LLM-as-a-Judge, structured output validation, and token-cost tracking, keeping responses reliable and inference costs visible.",
-        "Built AI and backend components deployed on AWS, powering Instagram creator intelligence, conversational water-data analytics, and AI-generated school fitness insights."
+        "Built AI and backend components deployed on AWS, powering Instagram creator intelligence, conversational water-data analytics, and AI-generated school fitness insights.",
+        "Built a multimodal Instagram feature that analyzed influencers' posts, reels, and engagement metrics with Gemini Vision, generating content ideas and reports to help boost engagement."
       ]
     },
     {
