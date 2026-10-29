@@ -9,6 +9,7 @@
 - The `.githooks` pre-commit (`git config core.hooksPath .githooks`) regenerates `resume.tex` when `resume.json` is staged.
 - **No local LaTeX, no docker, no sudo** in this environment. PDF compiles only in CI (`.github/workflows/build.yml`), which runs on **pushes to `main` only** — commits to `dev` leave `public/resume.pdf` stale until merged to main.
 - All JSON values are auto-escaped for LaTeX special chars, so bullets can be plain text.
+- **Git rule: push to GitHub only when the user explicitly says so.** Local commits are fine; never run `git push` unprompted.
 
 ## 1. Think Before Coding
 
