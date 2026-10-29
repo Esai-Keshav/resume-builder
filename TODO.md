@@ -5,7 +5,7 @@ add angulr
 remove company and projct naem
 add r d to convertable
 
- muitl modal insgtram ideas and report for insgtram infuluer to boost enagnmetns
+ - multimodal instagram ideas and report for instagram influencers to boost engagement (done: cyces bullet added)
 
 learn cyber security
 
