@@ -9,7 +9,8 @@
 - The `.githooks` pre-commit (`git config core.hooksPath .githooks`) regenerates `resume.tex` when `resume.json` is staged.
 - **No local LaTeX, no docker, no sudo** in this environment. PDF compiles only in CI (`.github/workflows/build.yml`), which runs on **pushes to `main` only** — commits to `dev` leave `public/resume.pdf` stale until merged to main.
 - All JSON values are auto-escaped for LaTeX special chars, so bullets can be plain text.
-- **When writing or editing resume content, follow `guidelines.md`** (source of truth for bullet wording, ATS rules, and page budget).
+- **When writing or editing resume content, follow `guidelines.md`** (source of truth for bullet wording, ATS rules, and page budget) and load skills: `caveman`, `no-ai-slop`, `resume-ats-optimizer`, `resume-formatter`.
+- **Skills to load every session:** `caveman` and `no-ai-slop`, regardless of task.
 - **Git rule: commit or push to GitHub only when the user explicitly says so.** Never run `git commit` or `git push` unprompted.
 
 ## 1. Think Before Coding
