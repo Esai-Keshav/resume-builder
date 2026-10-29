@@ -78,10 +78,11 @@
     "Languages": ["Python", "TypeScript"],
     "AI/GenAI": [
       "LangChain",
+      "Claude API",
+      "OpenAI API",
       "Gemini API",
       "RAG",
       "LLM-as-a-Judge",
-      "Structured Outputs",
       "Vector Databases"
     ],
     "Frameworks": [
