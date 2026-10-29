@@ -39,6 +39,7 @@ Rules for writing or editing any resume content in this repo (`resume.json` only
 
 - No slop phrasing: "spearheaded", "leverage synergies", "cutting edge", rule of three padding, vague attribution like "significantly improved" without a metric.
 - No fake numbers. If a number exists and the user confirmed it, use it. Otherwise write without one.
+- No em dashes (—) or en dashes (–) in bullets. Write plain sentences with commas. A plain hyphen (-) is allowed only in compound words ("water-data") and verbatim tool names ("LLM-as-a-Judge").
 - Tool and framework names stay verbatim: Salesforce, GoHighLevel, Gemini Vision, PhonePe.
 
 ## 7. Process
