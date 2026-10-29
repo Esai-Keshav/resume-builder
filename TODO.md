@@ -1,7 +1,7 @@
 add websocket,
-add agent wars supply chain project
 add angulr
-add projec mindset
+-add project mindset (done: slack integration bullet convverse, client-requirements bullet ewokee)
+-add agent wars supply chain project
 remove company and projct naem
 add r d to convertable
 

@@ -30,6 +30,7 @@
       "dates": "Sep 2025 - Nov 2025",
       "bullets": [
         "Built a multi-CRM integration layer connecting Convverse.ai with Salesforce, HubSpot, GoHighLevel, Pipedrive, and Zoho CRM.",
+        "Built a Slack integration that pulled docs and data from the client's shared Slack channel into Convverse.ai, so the AI worked with real client content.",
         "Redesigned the Chrome extension to make it faster and more reliable for daily use."
       ]
     },
@@ -39,7 +40,8 @@
       "dates": "Jun 2025 - Sep 2025",
       "bullets": [
         "Built a fully responsive website based on Figma designs, optimized for fast loading and high Lighthouse performance, with Google Analytics integration for user insights.",
-        "Developed backend features including PhonePe payment integration, therapy session booking, and automated email notifications upon successful payments."
+        "Developed backend features including PhonePe payment integration, therapy session booking, and automated email notifications upon successful payments.",
+        "Worked directly with the client to understand their requirements and needs, translating conversations into concrete features and priorities."
       ]
     }
   ],
