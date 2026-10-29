@@ -1,6 +1,6 @@
 # Resume Builder
 
-Link => https://esai-keshav.github.io/resume-builder/resume.pdf
+Link => https://esai-keshav.github.io/resume-builder/Esai-Keshav-Resume.pdf
 
 ## How it works
 
@@ -29,7 +29,8 @@ python3 build.py
 ```
 
 The PDF itself is compiled by CI (`.github/workflows/build.yml`) on every push to `main`
-and deployed to GitHub Pages — no local LaTeX needed.
+and deployed to GitHub Pages as `Esai-Keshav-Resume.pdf` (so the download filename is right)
+— no local LaTeX needed.
 
 ## Notes
 

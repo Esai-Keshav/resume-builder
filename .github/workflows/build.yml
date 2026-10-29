@@ -24,7 +24,7 @@ jobs:
 
       - name: Replace Resume PDF
         run: |
-          cp resume.pdf public/resume.pdf
+          cp resume.pdf public/Esai-Keshav-Resume.pdf
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
