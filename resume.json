@@ -21,7 +21,7 @@
       "bullets": [
         "Evaluated emerging AI technologies through proofs-of-concept to decide what the company should adopt into production.",
         "Built LLM workflows graded with LLM-as-a-Judge, structured output validation, and token-cost tracking, keeping responses reliable and inference costs visible.",
-        "Built AI and backend components deployed on AWS for ITRA, WeGot AI, and FittGen, powering Instagram creator intelligence, conversational water-data analytics, and AI-generated school fitness insights."
+        "Built AI and backend components deployed on AWS — a multimodal Instagram feature that analyzed influencers' posts, reels, and engagement metrics with Gemini Vision to generate content ideas and reports that boost engagement — plus conversational water-data analytics and AI-generated school fitness insights."
       ]
     },
     {
@@ -78,10 +78,11 @@
     "Languages": ["Python", "TypeScript"],
     "AI/GenAI": [
       "LangChain",
+      "Claude API",
+      "OpenAI API",
       "Gemini API",
       "RAG",
       "LLM-as-a-Judge",
-      "Structured Outputs",
       "Vector Databases"
     ],
     "Frameworks": [
