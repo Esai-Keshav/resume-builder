@@ -2,6 +2,14 @@
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
 
+## Project: Resume Builder
+
+- **Pipeline:** `resume.json` → `build.py` → `resume.tex` → GitHub Actions → `public/resume.pdf` → GitHub Pages.
+- **`resume.json` is the single source of truth.** Never hand-edit `resume.tex`; edit JSON, then run `python3 build.py`.
+- The `.githooks` pre-commit (`git config core.hooksPath .githooks`) regenerates `resume.tex` when `resume.json` is staged.
+- **No local LaTeX, no docker, no sudo** in this environment. PDF compiles only in CI (`.github/workflows/build.yml`), which runs on **pushes to `main` only** — commits to `dev` leave `public/resume.pdf` stale until merged to main.
+- All JSON values are auto-escaped for LaTeX special chars, so bullets can be plain text.
+
 ## 1. Think Before Coding
 
 **Don't assume. Don't hide confusion. Surface tradeoffs.**
